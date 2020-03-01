@@ -160,7 +160,7 @@ function Map:init()
 
     -- start the background music
     self.music:setLooping(true)
-    -- self.music:play()
+    self.music:play()
 end
 
 -- return whether a given tile is collidable
